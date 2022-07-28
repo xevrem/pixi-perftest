@@ -2744,6 +2744,19 @@ __metadata:
   languageName: node
   linkType: hard
 
+"pixi-perftest@workspace:.":
+  version: 0.0.0-use.local
+  resolution: "pixi-perftest@workspace:."
+  dependencies:
+    parcel: ^2.6.2
+    pixi.js: ^6.5.0
+    punycode: ^2.1.1
+    querystring-es3: ^0.2.1
+    stats.js: ^0.17.0
+    url: ^0.11.0
+  languageName: unknown
+  linkType: soft
+
 "pixi.js@npm:^6.5.0":
   version: 6.5.0
   resolution: "pixi.js@npm:6.5.0"
@@ -2980,19 +2993,6 @@ __metadata:
   checksum: 6e65a05f7cf7ebdf8b7c75b101e18c0b7e3dff4940d480efed8aad3a36a4005140b660fa1d804cb8bce911cac290441dc728084a30504d3516ac2ff7ad607b02
   languageName: node
   linkType: hard
-
-"sharing-geometry@workspace:.":
-  version: 0.0.0-use.local
-  resolution: "sharing-geometry@workspace:."
-  dependencies:
-    parcel: ^2.6.2
-    pixi.js: ^6.5.0
-    punycode: ^2.1.1
-    querystring-es3: ^0.2.1
-    stats.js: ^0.17.0
-    url: ^0.11.0
-  languageName: unknown
-  linkType: soft
 
 "signal-exit@npm:^3.0.7":
   version: 3.0.7

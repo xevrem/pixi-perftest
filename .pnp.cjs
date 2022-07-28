@@ -17,14 +17,14 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
     ],\
     "dependencyTreeRoots": [\
       {\
-        "name": "sharing-geometry",\
+        "name": "pixi-perftest",\
         "reference": "workspace:."\
       }\
     ],\
     "enableTopLevelFallback": true,\
     "ignorePatternData": "(^(?:\\\\.yarn\\\\/sdks(?:\\\\/(?!\\\\.{1,2}(?:\\\\/|$))(?:(?:(?!(?:^|\\\\/)\\\\.{1,2}(?:\\\\/|$)).)*?)|$))$)",\
     "fallbackExclusionList": [\
-      ["sharing-geometry", ["workspace:."]]\
+      ["pixi-perftest", ["workspace:."]]\
     ],\
     "fallbackPool": [\
     ],\
@@ -33,7 +33,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
         [null, {\
           "packageLocation": "./",\
           "packageDependencies": [\
-            ["parcel", "virtual:b1a7591c4830b69c99a54586b7d3e2d99d3675edb6bee10d81d793b1fef21b30e2771b136bfcd03c0bada2f4cfabed57638f0eac1c0ce8c838d8540fc89c241c#npm:2.6.2"],\
+            ["parcel", "virtual:19fe4166e0132b290613aeb811eedace8c11c5ac333b1dd85f65b91ccb5290e2c0c5ff6f0e6e883893f451f2be4c4c7f5ef805fe2f44274606abee1fc0fba6c3#npm:2.6.2"],\
             ["pixi.js", "npm:6.5.0"],\
             ["punycode", "npm:2.1.1"],\
             ["querystring-es3", "npm:0.2.1"],\
@@ -390,10 +390,10 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           ],\
           "linkType": "SOFT"\
         }],\
-        ["virtual:3c28c530d0082e6be3d1cb997eeeb7ab3abbe707c2534bf6c529011caf5465f4f8ccfe78e14d09211a6888a7fd1fcbda140fe97ef13bec9ebb421ed0b2917860#npm:2.6.2", {\
-          "packageLocation": "./.yarn/__virtual__/@parcel-config-default-virtual-0d9fd2d0e5/0/cache/@parcel-config-default-npm-2.6.2-fd9b2d7d94-08cf9d08bb.zip/node_modules/@parcel/config-default/",\
+        ["virtual:a08100cd3af54ff4559977d5240e8d3e5d45af989e9f3134e0ef3855e6c999632c8c992c6f142dea1631a335d448b1123111d9c3d6b9b1bf20e7224937e9def1#npm:2.6.2", {\
+          "packageLocation": "./.yarn/__virtual__/@parcel-config-default-virtual-2d1807fb4e/0/cache/@parcel-config-default-npm-2.6.2-fd9b2d7d94-08cf9d08bb.zip/node_modules/@parcel/config-default/",\
           "packageDependencies": [\
-            ["@parcel/config-default", "virtual:3c28c530d0082e6be3d1cb997eeeb7ab3abbe707c2534bf6c529011caf5465f4f8ccfe78e14d09211a6888a7fd1fcbda140fe97ef13bec9ebb421ed0b2917860#npm:2.6.2"],\
+            ["@parcel/config-default", "virtual:a08100cd3af54ff4559977d5240e8d3e5d45af989e9f3134e0ef3855e6c999632c8c992c6f142dea1631a335d448b1123111d9c3d6b9b1bf20e7224937e9def1#npm:2.6.2"],\
             ["@parcel/bundler-default", "npm:2.6.2"],\
             ["@parcel/compressor-raw", "npm:2.6.2"],\
             ["@parcel/core", "npm:2.6.2"],\
@@ -417,8 +417,8 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["@parcel/transformer-babel", "npm:2.6.2"],\
             ["@parcel/transformer-css", "npm:2.6.2"],\
             ["@parcel/transformer-html", "npm:2.6.2"],\
-            ["@parcel/transformer-image", "virtual:0d9fd2d0e5472eee2642ee6bc8b3bb02e17fe49ec9402259d8c1c76348df89d310169e2d9992015f94400e25c290b8a9b9af12f157cec663d928358f09bc3be3#npm:2.6.2"],\
-            ["@parcel/transformer-js", "virtual:0d9fd2d0e5472eee2642ee6bc8b3bb02e17fe49ec9402259d8c1c76348df89d310169e2d9992015f94400e25c290b8a9b9af12f157cec663d928358f09bc3be3#npm:2.6.2"],\
+            ["@parcel/transformer-image", "virtual:2d1807fb4e82dbba112d6af02b918f3a8ee5580b14a128f485b48e9c3d66d8921c4d570b82b2889437ab7ab596c30b02245059b12bb2cc96488f950633e82b48#npm:2.6.2"],\
+            ["@parcel/transformer-js", "virtual:2d1807fb4e82dbba112d6af02b918f3a8ee5580b14a128f485b48e9c3d66d8921c4d570b82b2889437ab7ab596c30b02245059b12bb2cc96488f950633e82b48#npm:2.6.2"],\
             ["@parcel/transformer-json", "npm:2.6.2"],\
             ["@parcel/transformer-postcss", "npm:2.6.2"],\
             ["@parcel/transformer-posthtml", "npm:2.6.2"],\
@@ -1049,10 +1049,10 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           ],\
           "linkType": "SOFT"\
         }],\
-        ["virtual:0d9fd2d0e5472eee2642ee6bc8b3bb02e17fe49ec9402259d8c1c76348df89d310169e2d9992015f94400e25c290b8a9b9af12f157cec663d928358f09bc3be3#npm:2.6.2", {\
-          "packageLocation": "./.yarn/__virtual__/@parcel-transformer-image-virtual-f0f01dce30/0/cache/@parcel-transformer-image-npm-2.6.2-28b8a807bd-2627a162b9.zip/node_modules/@parcel/transformer-image/",\
+        ["virtual:2d1807fb4e82dbba112d6af02b918f3a8ee5580b14a128f485b48e9c3d66d8921c4d570b82b2889437ab7ab596c30b02245059b12bb2cc96488f950633e82b48#npm:2.6.2", {\
+          "packageLocation": "./.yarn/__virtual__/@parcel-transformer-image-virtual-b64022eb7e/0/cache/@parcel-transformer-image-npm-2.6.2-28b8a807bd-2627a162b9.zip/node_modules/@parcel/transformer-image/",\
           "packageDependencies": [\
-            ["@parcel/transformer-image", "virtual:0d9fd2d0e5472eee2642ee6bc8b3bb02e17fe49ec9402259d8c1c76348df89d310169e2d9992015f94400e25c290b8a9b9af12f157cec663d928358f09bc3be3#npm:2.6.2"],\
+            ["@parcel/transformer-image", "virtual:2d1807fb4e82dbba112d6af02b918f3a8ee5580b14a128f485b48e9c3d66d8921c4d570b82b2889437ab7ab596c30b02245059b12bb2cc96488f950633e82b48#npm:2.6.2"],\
             ["@parcel/core", "npm:2.6.2"],\
             ["@parcel/plugin", "npm:2.6.2"],\
             ["@parcel/workers", "virtual:f04091cfa7582037adbbc64f8bdc1e8a1e3ba1ec6821cd08c6cc7b88e8fd7804059618e495e94910cc7ca97eac7fe22f9a6fbed362640a9f23030f38903e7e3a#npm:2.6.2"],\
@@ -1068,16 +1068,16 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
       ]],\
       ["@parcel/transformer-js", [\
         ["npm:2.6.2", {\
-          "packageLocation": "./.yarn/unplugged/@parcel-transformer-js-virtual-09fccb10fe/node_modules/@parcel/transformer-js/",\
+          "packageLocation": "./.yarn/unplugged/@parcel-transformer-js-virtual-1f67248269/node_modules/@parcel/transformer-js/",\
           "packageDependencies": [\
             ["@parcel/transformer-js", "npm:2.6.2"]\
           ],\
           "linkType": "SOFT"\
         }],\
-        ["virtual:0d9fd2d0e5472eee2642ee6bc8b3bb02e17fe49ec9402259d8c1c76348df89d310169e2d9992015f94400e25c290b8a9b9af12f157cec663d928358f09bc3be3#npm:2.6.2", {\
-          "packageLocation": "./.yarn/unplugged/@parcel-transformer-js-virtual-09fccb10fe/node_modules/@parcel/transformer-js/",\
+        ["virtual:2d1807fb4e82dbba112d6af02b918f3a8ee5580b14a128f485b48e9c3d66d8921c4d570b82b2889437ab7ab596c30b02245059b12bb2cc96488f950633e82b48#npm:2.6.2", {\
+          "packageLocation": "./.yarn/unplugged/@parcel-transformer-js-virtual-1f67248269/node_modules/@parcel/transformer-js/",\
           "packageDependencies": [\
-            ["@parcel/transformer-js", "virtual:0d9fd2d0e5472eee2642ee6bc8b3bb02e17fe49ec9402259d8c1c76348df89d310169e2d9992015f94400e25c290b8a9b9af12f157cec663d928358f09bc3be3#npm:2.6.2"],\
+            ["@parcel/transformer-js", "virtual:2d1807fb4e82dbba112d6af02b918f3a8ee5580b14a128f485b48e9c3d66d8921c4d570b82b2889437ab7ab596c30b02245059b12bb2cc96488f950633e82b48#npm:2.6.2"],\
             ["@parcel/core", "npm:2.6.2"],\
             ["@parcel/diagnostic", "npm:2.6.2"],\
             ["@parcel/plugin", "npm:2.6.2"],\
@@ -3770,11 +3770,11 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           ],\
           "linkType": "SOFT"\
         }],\
-        ["virtual:b1a7591c4830b69c99a54586b7d3e2d99d3675edb6bee10d81d793b1fef21b30e2771b136bfcd03c0bada2f4cfabed57638f0eac1c0ce8c838d8540fc89c241c#npm:2.6.2", {\
-          "packageLocation": "./.yarn/__virtual__/parcel-virtual-3c28c530d0/0/cache/parcel-npm-2.6.2-91cd9ac49d-4c0de2d27a.zip/node_modules/parcel/",\
+        ["virtual:19fe4166e0132b290613aeb811eedace8c11c5ac333b1dd85f65b91ccb5290e2c0c5ff6f0e6e883893f451f2be4c4c7f5ef805fe2f44274606abee1fc0fba6c3#npm:2.6.2", {\
+          "packageLocation": "./.yarn/__virtual__/parcel-virtual-a08100cd3a/0/cache/parcel-npm-2.6.2-91cd9ac49d-4c0de2d27a.zip/node_modules/parcel/",\
           "packageDependencies": [\
-            ["parcel", "virtual:b1a7591c4830b69c99a54586b7d3e2d99d3675edb6bee10d81d793b1fef21b30e2771b136bfcd03c0bada2f4cfabed57638f0eac1c0ce8c838d8540fc89c241c#npm:2.6.2"],\
-            ["@parcel/config-default", "virtual:3c28c530d0082e6be3d1cb997eeeb7ab3abbe707c2534bf6c529011caf5465f4f8ccfe78e14d09211a6888a7fd1fcbda140fe97ef13bec9ebb421ed0b2917860#npm:2.6.2"],\
+            ["parcel", "virtual:19fe4166e0132b290613aeb811eedace8c11c5ac333b1dd85f65b91ccb5290e2c0c5ff6f0e6e883893f451f2be4c4c7f5ef805fe2f44274606abee1fc0fba6c3#npm:2.6.2"],\
+            ["@parcel/config-default", "virtual:a08100cd3af54ff4559977d5240e8d3e5d45af989e9f3134e0ef3855e6c999632c8c992c6f142dea1631a335d448b1123111d9c3d6b9b1bf20e7224937e9def1#npm:2.6.2"],\
             ["@parcel/core", "npm:2.6.2"],\
             ["@parcel/diagnostic", "npm:2.6.2"],\
             ["@parcel/events", "npm:2.6.2"],\
@@ -3844,6 +3844,21 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["picocolors", "npm:1.0.0"]\
           ],\
           "linkType": "HARD"\
+        }]\
+      ]],\
+      ["pixi-perftest", [\
+        ["workspace:.", {\
+          "packageLocation": "./",\
+          "packageDependencies": [\
+            ["pixi-perftest", "workspace:."],\
+            ["parcel", "virtual:19fe4166e0132b290613aeb811eedace8c11c5ac333b1dd85f65b91ccb5290e2c0c5ff6f0e6e883893f451f2be4c4c7f5ef805fe2f44274606abee1fc0fba6c3#npm:2.6.2"],\
+            ["pixi.js", "npm:6.5.0"],\
+            ["punycode", "npm:2.1.1"],\
+            ["querystring-es3", "npm:0.2.1"],\
+            ["stats.js", "npm:0.17.0"],\
+            ["url", "npm:0.11.0"]\
+          ],\
+          "linkType": "SOFT"\
         }]\
       ]],\
       ["pixi.js", [\
@@ -4123,21 +4138,6 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["set-blocking", "npm:2.0.0"]\
           ],\
           "linkType": "HARD"\
-        }]\
-      ]],\
-      ["sharing-geometry", [\
-        ["workspace:.", {\
-          "packageLocation": "./",\
-          "packageDependencies": [\
-            ["sharing-geometry", "workspace:."],\
-            ["parcel", "virtual:b1a7591c4830b69c99a54586b7d3e2d99d3675edb6bee10d81d793b1fef21b30e2771b136bfcd03c0bada2f4cfabed57638f0eac1c0ce8c838d8540fc89c241c#npm:2.6.2"],\
-            ["pixi.js", "npm:6.5.0"],\
-            ["punycode", "npm:2.1.1"],\
-            ["querystring-es3", "npm:0.2.1"],\
-            ["stats.js", "npm:0.17.0"],\
-            ["url", "npm:0.11.0"]\
-          ],\
-          "linkType": "SOFT"\
         }]\
       ]],\
       ["signal-exit", [\
