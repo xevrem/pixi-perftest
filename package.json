@@ -11,9 +11,10 @@
     "esbuild": "^0.14.51",
     "punycode": "^2.1.1",
     "querystring-es3": "^0.2.1",
+    "typescript": "^4.7.4",
     "url": "^0.11.0"
   },
-  "scripts" :{
-    "start" : "yarn node serve.js"
+  "scripts": {
+    "start": "yarn node serve.js"
   }
 }

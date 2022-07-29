@@ -124,6 +124,11 @@ export const run = () => {
 `
   );
 
+  /**
+   *
+   * @param {string} url
+   * @returns {PIXI.Mesh<PIXI.Shader>}
+   */
   const makeTriangle = (url) => {
     const triangle = new PIXI.Mesh(
       geometry,
@@ -134,7 +139,6 @@ export const run = () => {
     return triangle;
   };
 
-  const numTris = 10;
   const tris = [];
   const tri = makeTriangle(bgRotateURL);
   tri.position.set(HALF_WIDTH, HALF_HEIGHT);
@@ -144,13 +148,6 @@ export const run = () => {
   stats.begin();
   app.ticker.add((delta) => {
     stats.end();
-    // for (let i = NUM_TRIS; i--; ) {
-    //   const instanceOffset = i * positionSize;
-
-    //   const angle = Math.random() * twoPi;
-    //   geometry.buffers[2].data[instanceOffset + 0] += Math.random() * 5 - 2.5;
-    //   geometry.buffers[2].data[instanceOffset + 1] += Math.random() * 5 - 2.5;
-    // }
     tri.rotation += 0.001 * delta;
     stats.begin();
   });
