@@ -4,20 +4,9 @@ var stats = new Stats();
 stats.showPanel(0); // 0: fps, 1: ms, 2: mb, 3+: custom
 document.body.appendChild(stats.dom);
 
-const bgRotateURL = new URL(
-  "assets/bg_rotate.jpeg",
-  import.meta.url
-).toString();
-
-const bgSceneRotateURL = new URL(
-  "assets/bg_scene_rotate.jpeg",
-  import.meta.url
-).toString();
-
-const bgDisplacementURL = new URL(
-  "assets/bg_displacement.jpeg",
-  import.meta.url
-).toString();
+import bgRotateURL from "./assets/bg_rotate.jpeg";
+import bgSceneRotateURL from "./assets/bg_scene_rotate.jpeg";
+import bgDisplacementURL from "./assets/bg_displacement.jpeg";
 
 const NUM_TRIS = 10000;
 const WIDTH = 1280;
@@ -27,15 +16,15 @@ const HALF_HEIGHT = HEIGHT / 2;
 const MAX = HEIGHT / 2;
 const TWO_PI = Math.PI * 2;
 const DEG_TO_RAD = TWO_PI / 360;
-const ANGULAR_SPACING = 360/7;
+const ANGULAR_SPACING = 360 / 7;
 
-export default run = () => {
+export const run = () => {
   console.log("running app");
-  console.log("URLs:", {
-    bgRotateURL,
-    bgSceneRotateURL,
-    bgDisplacementURL,
-  });
+  // console.log("URLs:", {
+  //   bgRotateURL,
+  //   bgSceneRotateURL,
+  //   bgDisplacementURL,
+  // });
   const app = new PIXI.Application({
     width: WIDTH,
     height: HEIGHT,
@@ -91,7 +80,6 @@ export default run = () => {
     0,
     true
   );
-
 
   for (let i = NUM_TRIS; i--; ) {
     const instanceOffset = i * positionSize;

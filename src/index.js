@@ -1,3 +1,3 @@
-import run from './app';
-console.log('index running...');
+import { run } from "./app.js";
+console.log("index running...");
 run();

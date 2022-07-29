@@ -1,14 +1,19 @@
 {
   "name": "pixi-perftest",
+  "type": "module",
   "packageManager": "yarn@3.2.2",
   "dependencies": {
     "pixi.js": "^6.5.0",
     "stats.js": "^0.17.0"
   },
   "devDependencies": {
-    "parcel": "^2.6.2",
+    "@yarnpkg/esbuild-plugin-pnp": "^3.0.0-rc.14",
+    "esbuild": "^0.14.51",
     "punycode": "^2.1.1",
     "querystring-es3": "^0.2.1",
     "url": "^0.11.0"
+  },
+  "scripts" :{
+    "start" : "yarn node serve.js"
   }
 }
